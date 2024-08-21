@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.2em;
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+.hero {
+    background-color: #004d40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 80%; /* Ajuste del tamaño del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.hero img {
+    max-width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.content-section {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px; /* Añadido un poco más de espacio interno */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #00796b;
+    font-size: 1.6em;
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 10px; /* Ajuste del espacio inferior */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px; /* Añadir espacio superior */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8; /* Más espacio entre líneas para mejor legibilidad */
+    margin-bottom: 15px; /* Añadir espacio inferior */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #00796b;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #00796b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
